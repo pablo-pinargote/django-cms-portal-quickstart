@@ -1,0 +1,1 @@
+# Django CMS Basic Boilerplate
