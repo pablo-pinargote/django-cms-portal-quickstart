@@ -27,21 +27,16 @@ SECRET_KEY = 'tn(@c&-76@nz76g9s@5#b$ueq)qu(aggylx-=jry!67(xc2gdk'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
-
+ALLOWED_HOSTS = ['*']
 
 # Application definition
 
-
 ROOT_URLCONF = 'app.urls'
-
 
 WSGI_APPLICATION = 'app.wsgi.application'
 
-
 # Database
 # https://docs.djangoproject.com/en/3.1/ref/settings/#databases
-
 
 # Password validation
 # https://docs.djangoproject.com/en/3.1/ref/settings/#auth-password-validators
@@ -74,7 +69,6 @@ USE_I18N = True
 USE_L10N = True
 
 USE_TZ = True
-
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
@@ -172,8 +166,11 @@ INSTALLED_APPS = [
     'djangocms_link',
     'djangocms_picture',
     'djangocms_style',
+    'djangocms_snippet',
     'djangocms_googlemap',
     'djangocms_video',
+    'djangocms_svgimage',
+    'djangocms_paranoid_style',
     'app'
 ]
 
