@@ -170,7 +170,6 @@ INSTALLED_APPS = [
     'djangocms_googlemap',
     'djangocms_video',
     'djangocms_svgimage',
-    'djangocms_paranoid_style',
     'app'
 ]
 
