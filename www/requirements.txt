@@ -27,7 +27,6 @@ djangocms-picture==3.0.0
 djangocms-snippet==3.0.0
 djangocms-style==3.0.0
 git+https://github.com/pablo-pinargote/djangocms_svgimage
-git+https://github.com/pablo-pinargote/djangocms_paranoid_style
 djangocms-text-ckeditor==4.0.0
 djangocms-video==3.0.0
 easy-thumbnails==2.7.1
