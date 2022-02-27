@@ -22,12 +22,6 @@ Allow: /
 
 Disallow: /404
 Disallow: /500
-Disallow: /core/*
-Disallow: /account
-Disallow: /log-in
-Disallow: /my-acount
-Disallow: /password-recovery
-Disallow: /password-update
 
 User-agent: AdsBot-Google
 User-agent: Twitterbot
